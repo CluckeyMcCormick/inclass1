@@ -25,6 +25,8 @@ public class SimpleWindow extends JFrame
         contentPane.add(label);
         contentPane.setBackground(Color.GREEN);
         addWindowListener(new WindowDestroyer());
+        
+        this.setTitle("Nicolas Fredrickson");
 }
     public static void main(String[] args)
     {
